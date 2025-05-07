@@ -1,0 +1,9 @@
+---
+  hosts: localhost
+  become: yes
+  user: user1
+  tasks:
+    file:
+      path: "/home/user1/one.cpp"
+      state: touch
+
